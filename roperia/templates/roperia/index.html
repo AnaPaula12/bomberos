@@ -1,0 +1,5 @@
+    <ul>
+    {% for persona in personas_list %}
+        <li><a href="{% url 'roperia:detalle' persona.id %}">{{ persona.apellido }}{{' '}}{{persona.nombre}}</a></li>
+    {% endfor %}
+    </ul>
