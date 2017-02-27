@@ -17,7 +17,7 @@ class Persona(models.Model):
 
 class Ropa(models.Model):
     funcion_de_la_ropa = models.CharField(
-            max_length=15,
+            max_length=14,
             choices=(
                 ('Incendio', 'Incendio'),
                 ('Rescate', 'Rescate'),
